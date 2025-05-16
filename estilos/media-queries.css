@@ -1,0 +1,65 @@
+@charset "UTF-8";
+
+:root{
+    --cor1: #BAF2D8;
+    --cor2: #99B2DD;
+    --cor3: #297373;
+    --cor4: #204B57;
+    --cor5: #FFBE86;
+    --cor6: #ED9B40;
+
+}
+
+/*
+Typical device brakepoints: tamanhos padrões de telas.
+Extra Small (Phones): 600px and down
+Small (Portrait Tablets/Large Phones): 600px and up
+Medium (Landscape Tablets): 768px and up
+Large (Laptops/Desktops): 992px and up
+Extra Large (Large Laptops/Desktops): 1200px and up
+*/
+
+@media screen and (min-width: 770px) and (max-width:999px){
+
+    body{
+        background-image: linear-gradient(to right, var(--cor4), var(--cor1));
+    }
+
+    section#login{
+        width: 80vw;
+    }
+
+    div#img{
+        float: left;
+        width: 30%;
+        height: 100%;
+        border-radius: 15px 0px 0px 15px;
+    }
+    
+    div#formulario{
+        float: right;
+        width: 70%;
+    }
+}
+
+@media screen and (min-width: 999px){
+
+    body{
+        background-image: linear-gradient(to top, var(--cor4), var(--cor2));
+    }
+
+    section#login{
+        width: 950px;
+        font-size: 1.25em;
+    }
+    div#img{
+        float: right;
+        width: 50%;
+        height: 100%;
+        border-radius: 0px 15px 15px 0px;
+}
+ div#formulario{
+        float: left;
+        width: 50%;
+    }
+}

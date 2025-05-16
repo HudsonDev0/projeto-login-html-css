@@ -1,0 +1,69 @@
+@charset "UTF-8";
+
+/*
+Paleta:
+#BAF2D8
+#99B2DD
+#297373
+#204B57
+#FFBE86
+#ED9B40
+*/
+
+:root{
+    --cor1: #BAF2D8;
+    --cor2: #99B2DD;
+    --cor3: #297373;
+    --cor4: #204B57;
+    --cor5: #FFBE86;
+    --cor6: #ED9B40;
+
+}
+
+* {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body, html{
+    background-color: var(--cor4);
+    height: 100vh;
+    width: 100vw;
+}
+
+main{
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+}
+
+section#login{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    border-radius: 15px;
+    width: 270px;
+    height: 500px;
+    box-shadow: 0px 0px 7px rgba(0, 0, 0, 0.398);
+
+    transition: width 0.3s, height 0.3s;
+    transition-timing-function: ease;
+}
+
+div#img{
+    border-radius: 15px 15px 0px 0px;
+    background: #204B57 url('../imagens/building.jpg') left center no-repeat;
+    background-size: cover;
+    height: 170px;
+    display: block;
+}
+
+div#formulario{
+    display: block;
+    padding: 10px;
+}
+
