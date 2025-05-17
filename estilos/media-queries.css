@@ -47,9 +47,20 @@ Extra Large (Large Laptops/Desktops): 1200px and up
         width: calc(100% - 65px);
         height: 40px;
         border: none;
-        transform: translateY(-12px);
+        
+    }    
+
+    .campo > label{
+    color: #094548;
+    background-color: #8adfc3;
+    margin-top: 3px;
+    border-radius: 7px;
+    padding: 6px 5px;
+    font-size: 1em;
+    }    
 }
-}
+
+
 
 @media screen and (min-width: 999px){
 
@@ -94,7 +105,17 @@ Extra Large (Large Laptops/Desktops): 1200px and up
         border-radius: 0px 5px 5px 0px;
         height: 55px;
         border: none;
-        transform: translateY(-12px);
     }
 
+    .campo > label{
+        color: #094548;
+        background-color: #8adfdf;
+        margin-top: 3px;
+        border-radius: 7px;
+        padding: 13px 5px;
+        font-size: 1em;
+    }    
+
+
 }
+

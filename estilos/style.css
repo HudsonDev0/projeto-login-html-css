@@ -89,11 +89,16 @@ div.campo span{
     border-radius: 0px 5px 5px 0px;
     height: 45px;
     border: none;
-    transform: translateY(-9px);
+    margin-top: 0px;
 }
 
 .campo > label{
-    display: none;
+    color: #094548;
+    background-color: #8adfc3;
+    margin-top: 5px;
+    border-radius: 7px;
+    padding: 13px 5px;
+    font-size: 1em;
 }
 
 a.button{
