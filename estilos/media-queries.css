@@ -23,6 +23,7 @@ Extra Large (Large Laptops/Desktops): 1200px and up
 
     body{
         background-image: linear-gradient(to right, var(--cor4), var(--cor1));
+        font-size: 1.1em;
     }
 
     section#login{
@@ -40,6 +41,14 @@ Extra Large (Large Laptops/Desktops): 1200px and up
         float: right;
         width: 70%;
     }
+
+    .campo input{
+        background-color: #8fdaba;
+        width: calc(100% - 65px);
+        height: 40px;
+        border: none;
+        transform: translateY(-12px);
+}
 }
 
 @media screen and (min-width: 999px){
@@ -57,9 +66,35 @@ Extra Large (Large Laptops/Desktops): 1200px and up
         width: 50%;
         height: 100%;
         border-radius: 0px 15px 15px 0px;
-}
- div#formulario{
+    }
+    div#formulario{
         float: left;
         width: 50%;
     }
+
+    div.campo{
+        background-color: #bff3f1;
+        margin: 10px 0px;
+        padding: 5px;
+        border-radius: 10px;
+    }
+
+    div.campo span{
+        color: #094548;
+        background-color: #83d8d5;
+        margin-top: 13px;
+        border-radius: 7px;
+        padding: 10px;
+        font-size: 2.2em;
+    }
+
+    .campo input{
+        background-color: #91ded9;
+        width: calc(100% - 65px);
+        border-radius: 0px 5px 5px 0px;
+        height: 55px;
+        border: none;
+        transform: translateY(-12px);
+    }
+
 }
